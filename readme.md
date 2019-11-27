@@ -46,7 +46,7 @@ and add the Facades to your aliases, if you need it
         'SlackUserAdmin'        => Vluzrmos\SlackApi\Facades\SlackUserAdmin::class,
         'SlackRealTimeMessage'  => Vluzrmos\SlackApi\Facades\SlackRealTimeMessage::class,
         'SlackTeam'             => Vluzrmos\SlackApi\Facades\SlackTeam::class,
-        'SlackOAuthV2'          => Vluzrmos\SlackApi\Facades\SlackOAuthV2::class,
+        'SlackOAuth'          => Vluzrmos\SlackApi\Facades\SlackOAuth::class,
     ]
 ]
 
@@ -293,10 +293,10 @@ Get information about an user on your team or just check your presence ou status
 
 Invite new members to your team.
 
-### OAuth V2 API
-`Vluzrmos\SlackApi\Contracts\SlackOAuthV2`
+### OAuth API
+`Vluzrmos\SlackApi\Contracts\SlackOAuth`
 
-Methods in oauth.v2 slack api namespace.
+Methods in oauth slack api namespace.
 
 ## License
 

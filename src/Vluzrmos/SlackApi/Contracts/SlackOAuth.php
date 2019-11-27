@@ -2,7 +2,7 @@
 
 namespace Vluzrmos\SlackApi\Contracts;
 
-interface SlackOAuthV2
+interface SlackOAuth
 {
     public function access($code, $options = []);
 }

@@ -2,11 +2,11 @@
 
 namespace Vluzrmos\SlackApi\Methods;
 
-use Vluzrmos\SlackApi\Contracts\SlackOAuthV2;
+use Vluzrmos\SlackApi\Contracts\SlackOAuth;
 
-class OAuthV2 extends SlackMethod implements SlackOAuthV2
+class OAuth extends SlackMethod implements SlackOAuth
 {
-    protected $methodsGroup = 'oauth.v2.';
+    protected $methodsGroup = 'oauth.';
 
     /**
      * 	Exchanges a temporary OAuth verifier code for an access token.
