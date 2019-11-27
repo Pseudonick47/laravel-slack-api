@@ -47,6 +47,7 @@ and add the Facades to your aliases, if you need it
         'SlackRealTimeMessage'  => Vluzrmos\SlackApi\Facades\SlackRealTimeMessage::class,
         'SlackTeam'             => Vluzrmos\SlackApi\Facades\SlackTeam::class,
         'SlackOAuth'          => Vluzrmos\SlackApi\Facades\SlackOAuth::class,
+        'SlackOAuthV2'          => Vluzrmos\SlackApi\Facades\SlackOAuthV2::class,
     ]
 ]
 
@@ -303,6 +304,12 @@ Invite new members to your team.
 `Vluzrmos\SlackApi\Contracts\SlackOAuth`
 
 Methods in oauth slack api namespace.
+
+### OAuthV2 API
+`Vluzrmos\SlackApi\Contracts\SlackOAuthV2`
+
+Methods in oauth v2 slack api namespace.
+
 
 ## License
 
