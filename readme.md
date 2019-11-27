@@ -127,6 +127,12 @@ configure your slack team token in <code>config/services.php</code>
 ?>
 ```
 
+By default all api methods will return objects, to change it to associative array first publish slack-api config, and then set `response_to_assoc_array` to true
+
+```bash
+php artisan vendor:publish --provider="Vluzrmos\SlackApi\SlackApiServiceProvider"
+```
+
 ## Usage
 
 ```php

@@ -56,6 +56,10 @@ class SlackApiServiceProvider extends ServiceProvider
      */
     public function register()
     {
+        $this->mergeConfigFrom(
+            __DIR__.'/config/slack-api.php', 'slack-api'
+        );
+
         /* Lumen autoload services configs */
         if (Str::contains($this->app->version(), 'Lumen')) {
             $this->app->configure('services');
