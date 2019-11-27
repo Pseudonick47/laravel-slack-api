@@ -30,7 +30,7 @@ class SlackApiServiceProvider extends ServiceProvider
         'Star',
         'RealTimeMessage',
         'UserAdmin',
-        'OAuth'
+        'OAuthV2'
     ];
 
     /**
