@@ -32,7 +32,8 @@ class SlackApiServiceProvider extends ServiceProvider
         'RealTimeMessage',
         'UserAdmin',
         'OAuth',
-        'OAuthV2'
+        'OAuthV2',
+        'View'
     ];
 
     /**
