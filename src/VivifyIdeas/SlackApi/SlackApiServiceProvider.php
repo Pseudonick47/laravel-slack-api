@@ -27,6 +27,7 @@ class SlackApiServiceProvider extends ServiceProvider
         'Search',
         'File',
         'User',
+        'UsersProfile',
         'Team',
         'Star',
         'RealTimeMessage',
